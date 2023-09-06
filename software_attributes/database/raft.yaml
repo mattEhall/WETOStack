@@ -3,8 +3,8 @@ github_account: wisdem
 github_repo: raft
 primary_uses:
 - simulation
-# active_funding: True
-# development_status: new_features
+active_funding: true
+development_status: new_features
 programming_language: python
 license_type: apache-2.0
 data_collection_methods:
@@ -73,10 +73,10 @@ dependencies:
 #    - direct
 -   - moorpy
     - direct
--   - ccblade
-    - direct
--   - pyhams
-    - direct
+# -   - ccblade
+#     - direct
+# -   - pyhams
+#     - direct
 
 # # Community Health
 # open_issues: 0..N
