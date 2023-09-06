@@ -3,8 +3,8 @@ github_account: wisdem
 github_repo: raft
 primary_uses:
 - simulation
-# active_funding: TODO
-# development_status: TODO
+# active_funding: True
+# development_status: new_features
 programming_language: python
 license_type: apache-2.0
 data_collection_methods:
@@ -14,6 +14,8 @@ last_release_date: "2021-11-10"
 # Modeling
 scope:
 - turbine
+- system
+- farm
 system_type:
 - hawt
 system_location:
@@ -67,14 +69,14 @@ filetypes:
 
 # WETO Integrations
 dependencies:
--   - wisdem
-    - direct
+#-   - wisdem
+#    - direct
 -   - moorpy
     - direct
-# -   - ccblade
-#     - direct
-# -   - pyhams
-#     - direct
+-   - ccblade
+    - direct
+-   - pyhams
+    - direct
 
 # # Community Health
 # open_issues: 0..N
