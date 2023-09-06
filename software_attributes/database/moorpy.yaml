@@ -4,7 +4,7 @@ github_repo: moorpy
 primary_uses:
 - simulation
 # active_funding: True
-# development_status: active
+# development_status: new_features
 programming_language: python
 license_type: bsd-3-clause
 data_collection_methods:
@@ -21,6 +21,7 @@ system_location:
 time_domain:
 - steady
 - dynamic
+# not time domain; frequency domain
 loads: true
 # tags:
 # - TODO
@@ -57,6 +58,7 @@ performance_tests: false
 # Interfaces
 first_class_ui:
 - input_files
+- library_interface
 has_cli: false
 # language_interfaces:
 # - TODO
