@@ -3,8 +3,8 @@ github_account: nrel
 github_repo: moorpy
 primary_uses:
 - simulation
-# active_funding: True
-# development_status: new_features
+active_funding: true
+development_status: new_features
 programming_language: python
 license_type: bsd-3-clause
 data_collection_methods:
@@ -18,10 +18,9 @@ system_type:
 - any
 system_location:
 - floating_offshore
-time_domain:
-- steady
-- dynamic
-# not time domain; frequency domain
+# time_domain:  # not time domain; frequency domain
+# - steady
+# - dynamic
 loads: true
 # tags:
 # - TODO
