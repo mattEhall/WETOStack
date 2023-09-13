@@ -18,9 +18,8 @@ system_type:
 - any
 system_location:
 - floating_offshore
-# time_domain:  # not time domain; frequency domain
-# - steady
-# - dynamic
+time_domain:
+- frequency
 loads: true
 # tags:
 # - TODO

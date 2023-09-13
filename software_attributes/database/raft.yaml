@@ -69,8 +69,8 @@ filetypes:
 
 # WETO Integrations
 dependencies:
-#-   - wisdem
-#    - direct
+-   - wisdem
+    - direct
 -   - moorpy
     - direct
 # -   - ccblade
